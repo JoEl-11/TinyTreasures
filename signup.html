@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="icon" href="/static/images/favicon.png">
+</head>
+<body class="background">
+    <h1><img src="/static/images/favicon.png" alt="">TinyTreasures</h1>
+    <div class="name">
+        <form action="/action_page.php">
+            <label for="name">Enter your name</label>
+            <input class="yname" type="text" placeholder="your name">
+        </form>
+    </div>
+    <div class="gender">
+        <form action="/action_page.php">
+            <p class="gm">Enter your gender: </p>
+            <div class="male">
+                <label for="male">Male</label>
+                <input id="male" type="radio" value="male" name="gender">
+            </div>
+            <div class="female">
+                <label for="female">Female</label>
+                <input id="female" type="radio" value="female" name="gender">
+            </div>
+            <div class="other">
+                <label for="other">other</label>
+                <input type="radio" id="other" value="other" name="other">
+            </div>
+            
+        </form>
+    </div>
+    <div class="signupem">
+        <form action="/action_page.php">
+            <label for="gmail">Enter your email address</label>
+            <input type="email" class="smail" placeholder="email address">
+        </form>
+    </div>
+    <p class="comb">should be combination of numbers(0-9) and letters(a-z,A-Z)</p>
+    <div class="user">
+        <form action="/action_page.php">
+            <label for="username">Create a username</label>
+            <input class="us" type="text" placeholder="enter a user name">
+        </form>
+    </div>
+    <div class="signpass">
+        <form action="/action_page.php">
+            <label for="password">Enter a password</label>
+            <input class="passin" type="password" placeholder="enter a password">
+        </form>
+    </div>
+    <div class="confirm">
+        <form action="/action_page.php">
+            <label for="confirm">Confirm the password</label>
+            <input class="con" type="password" placeholder="confirm password">
+        </form>
+    </div>
+    <div class="do">
+        <h1>Do have an account <a href="signin">login</a></h1>
+    </div>
+</body>
+</html>
